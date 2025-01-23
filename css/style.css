@@ -294,7 +294,7 @@
 
 /*** Appointment ***/
 .appointment {
-    background: linear-gradient(rgba(1, 95, 201, .9), rgba(1, 95, 201, .9)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(189, 126, 1, .70), rgb(119 92 38 / 70%)), url(../img/carousel-2.jpg) center center no-repeat;
     background-size: cover;
 }
 
