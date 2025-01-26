@@ -69,12 +69,17 @@
             event.preventDefault();
 
             // Get the height of the navbar
-            var navbarHeight = document.querySelector('.navbar').offsetHeight;
+
 
             // Get the target section
             var targetSection = document.getElementById(nav_item.getAttribute("section_name"));
             nav_item.classList.add("active");
 
+
+
+            let toggler_button = document.querySelector(".navbar-collapse");
+            toggler_button.classList.remove("show");
+            var navbarHeight = document.querySelector('.navbar').offsetHeight;
             // Scroll to the target section, adjusted by the navbar height
             window.scrollTo({
                 top: targetSection.offsetTop - navbarHeight,
